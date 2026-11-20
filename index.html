@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Oumaima Dehmane · Business Analytics</title>
-<meta name="description" content="Oumaima Dehmane, Business Analytics and AI student at Al Akhawayn University, graduating December 2026. Turning data into clear answers for businesses.">
+<title>Oumaima Dehmane · Business Analyst</title>
+<meta name="description" content="Oumaima Dehmane, Business Analyst with a Business Analytics and AI background from Al Akhawayn University, graduating December 2026. Turning data into clear answers for businesses.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -175,6 +175,14 @@ h2{font-weight:800;font-size:clamp(2rem,4.2vw,3.3rem);line-height:1.08;letter-sp
 .erd-info b{color:var(--beige);font-size:.95rem}
 .erd-info p{font-size:.86rem;color:var(--muted);margin:2px 0 0}
 @media(max-width:900px){.feature{grid-template-columns:1fr}}
+.cap-box{justify-content:center}
+.flow{display:flex;flex-direction:column;align-items:stretch;gap:6px;max-width:360px;width:100%;margin:0 auto}
+.fstep{background:rgba(14,10,22,.75);border:1px solid var(--line);border-radius:14px;padding:12px 16px}
+.fstep.hot{border-color:rgba(169,134,242,.6);background:rgba(123,79,208,.18)}
+.fstep .fk{display:block;font-size:.68rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--violet2)}
+.fstep b{color:var(--beige);font-size:.98rem}
+.fstep p{font-size:.82rem;color:var(--muted);margin:2px 0 0}
+.farrow{text-align:center;color:var(--violet2);font-size:1.1rem;line-height:1}
 .upcoming{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px}
 .up{border:1px dashed rgba(236,223,198,.22);border-radius:22px;padding:24px;transition:.3s}
 .up:hover{border-style:solid;border-color:var(--violet2);background:rgba(123,79,208,.07)}
@@ -249,9 +257,9 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
   <div class="wrap">
     <div>
       <span class="status"><i></i>Graduating December 2026 · Available from January 2027</span>
-      <p class="hello">Hi, I'm <b>Oumaima Dehmane</b>, Business Analytics &amp; AI student.</p>
+      <p class="hello">Hi, I'm <b>Oumaima Dehmane</b>, Business Analyst · Business Analytics &amp; AI.</p>
       <h1>I help businesses see their data <span class="hl">clearly<svg viewBox="0 0 200 20" preserveAspectRatio="none" aria-hidden="true"><path d="M3 14 C 50 4, 120 4, 197 10"/></svg></span>.</h1>
-      <p class="lead">I turn scattered numbers into <b>clear answers teams can act on</b>, using SQL, Python, Power BI and Tableau. Final-year student at Al Akhawayn University, with internships in banking innovation and business analysis.</p>
+      <p class="lead">I turn scattered numbers into <b>clear answers teams can act on</b>, using SQL, Python, Power BI, Tableau and AI tools like Claude and ChatGPT. Final-year student at Al Akhawayn University, with internships in banking innovation and business analysis.</p>
       <div class="actions">
         <a class="btn btn-fill" href="CV_Oumaima_Dehmane_EN.pdf" download>Download CV ↓</a>
         <a class="btn btn-line" href="CV_Oumaima_Dehmane_FR.pdf" download>CV en français</a>
@@ -280,6 +288,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
       <div class="panel about-text reveal">
         <p>I'm a final-year student in <b>Business Analytics and Artificial Intelligence</b> at Al Akhawayn University (minor in Computer Science), graduating in December 2026.</p>
         <p class="m">I've built a PostgreSQL database with my team, compiled an Excel database of fintech startups at WENOV (Attijariwafa bank), researched an industry's business needs at Leap Partners, and learned how investment funds work alongside financial analysts at Africapital Tower.</p>
+        <p class="m">AI is part of how I work. I use Claude and ChatGPT with structured prompts for research and analysis, and I review what they give me with a critical eye. In my capstone, I proposed an AI tool for the port of Casablanca with Marsa Maroc.</p>
         <p class="m">Outside class, I've led clubs, organized events and managed social media, so I'm used to working with people and presenting ideas clearly. I work in English, French and Arabic.</p>
       </div>
       <div class="stats">
@@ -327,10 +336,10 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
           <div class="where">Leap Partners</div>
           <ul>
             <li>Designed a Figma prototype of the startup's app, earning supervisor approval for a team of 6.</li>
-            <li>Researched the real-estate industry and its business needs, setting realistic expectations for the app.</li>
+            <li>Used AI tools (Claude, ChatGPT) to research the real-estate industry and assess the CRM app's relevance, setting realistic expectations for the app.</li>
             <li>Contributed to functional meetings for a B2B CRM app.</li>
           </ul>
-          <div class="tags"><span>Business analysis</span><span>Figma</span><span>Market research</span><span>CRM</span></div>
+          <div class="tags"><span>Business analysis</span><span>Figma</span><span>Market research</span><span>AI research</span><span>CRM</span></div>
         </div>
         <div class="xp-panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden>
           <span class="date">Jan 2025 · Casablanca</span>
@@ -377,7 +386,8 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
       <div class="skill" data-c="viz"><span class="cat">Visualization</span><b>PowerPoint &amp; Figma</b><span>Presentations and prototypes</span></div>
       <div class="skill" data-c="model"><span class="cat">Modelling &amp; AI</span><b>RapidMiner</b><span>Data mining</span></div>
       <div class="skill" data-c="model"><span class="cat">Modelling &amp; AI</span><b>AnyLogic &amp; AnyLogistix</b><span>Simulation and supply chain</span></div>
-      <div class="skill" data-c="model"><span class="cat">Modelling &amp; AI</span><b>AI tools</b><span>ChatGPT, Claude</span></div>
+      <div class="skill" data-c="model"><span class="cat">Modelling &amp; AI</span><b>Claude &amp; ChatGPT</b><span>Structured prompts for research and analysis</span></div>
+      <div class="skill" data-c="model"><span class="cat">Modelling &amp; AI</span><b>Critical use of AI</b><span>Checking AI outputs before using them</span></div>
       <div class="skill" data-c="data"><span class="cat">Data</span><b>Java &amp; C</b><span>Foundational programming</span></div>
       <div class="skill" data-c="people"><span class="cat">People</span><b>Leadership</b><span>Club president, 70 members</span></div>
       <div class="skill" data-c="people"><span class="cat">People</span><b>Event organization</b><span>Festivals, competitions, club events</span></div>
@@ -390,13 +400,31 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 <section id="projects">
   <div class="wrap">
     <div class="label reveal">Projects</div>
-    <h2 class="reveal">Things I've built.</h2>
-    <p class="sub reveal">Tap a table in the diagram to see what it does.</p>
+    <h2 class="reveal">Things I've worked on.</h2>
+    <p class="sub reveal">From an AI business case for a national port operator to a working database.</p>
+    <div class="feature reveal cap-feature">
+      <div class="txt">
+        <span class="kick">Capstone · in progress · team of 5</span>
+        <h3>Casablanca Live Map for Marsa Maroc</h3>
+        <p>For our Business Policy &amp; Corporate Strategy capstone on Marsa Maroc, I proposed the Casablanca Live Map: an AI tool giving a real-time view of trucks and container clearance to reduce congestion at the port of Casablanca. The team selected it as our AI business case. I wrote the Resources &amp; Capabilities analysis (VRIO, value chain), which found 3 gaps that shaped the solution, and we're now testing its logistics feasibility with an AI agent built at AUI.</p>
+        <div class="nums"><div><b>5</b><span>teammates</span></div><div><b>3</b><span>gaps found</span></div><div><b>AI</b><span>business case</span></div></div>
+      </div>
+      <div class="erd-box cap-box" aria-label="How the Casablanca Live Map works">
+        <div class="flow">
+          <div class="fstep"><span class="fk">Input</span><b>Trucks &amp; containers</b><p>Where each truck is and where each container stands in clearance.</p></div>
+          <div class="farrow" aria-hidden="true">↓</div>
+          <div class="fstep hot"><span class="fk">AI tool</span><b>Casablanca Live Map</b><p>One real-time view of the port.</p></div>
+          <div class="farrow" aria-hidden="true">↓</div>
+          <div class="fstep"><span class="fk">Goal</span><b>Less congestion</b><p>Smoother flow in and out of the port of Casablanca.</p></div>
+        </div>
+      </div>
+    </div>
+    <p class="sub reveal" style="margin-top:34px">Tap a table in the diagram to see what it does.</p>
     <div class="feature reveal">
       <div class="txt">
         <span class="kick">Database Systems course · team of 4</span>
         <h3>Housing Management System</h3>
-        <p>A PostgreSQL database for university housing: residents, rooms, bookings, payments, applications and maintenance requests, with ERDs and SQL queries. A stored procedure and triggers automate application approvals, room occupancy updates and event-driven notifications.</p>
+        <p>A PostgreSQL database for university housing: residents, rooms, bookings, payments, applications and maintenance requests, with ERDs and SQL queries. A stored procedure and triggers automate application approvals, room occupancy updates and event-driven notifications. I used AI to assess the project's feasibility.</p>
         <div class="nums"><div><b>10+</b><span>entities</span></div><div><b>7</b><span>triggers</span></div><div><b>1</b><span>stored procedure</span></div></div>
       </div>
       <div class="erd-box">
@@ -446,7 +474,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
       <div>
         <h3>Bachelor's in Business Analytics &amp; Artificial Intelligence</h3>
         <p>Al Akhawayn University, Ifrane · Minor in Computer Science · Expected December 2026</p>
-        <div class="tags"><span>Dean's List 2024</span><span>Database Systems</span><span>Special Topics in Business Analytics</span></div>
+        <div class="tags"><span>Dean's List 2024</span><span>Introduction to Artificial Intelligence</span><span>Database Systems</span><span>Special Topics in Business Analytics</span><span>Capstone: Marsa Maroc (in progress)</span></div>
       </div>
     </div>
   </div>
